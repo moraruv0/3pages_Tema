@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    background-color: #222222;
+    width: 100vw;
+    padding: 1.5em;
+    z-index: 2;
+} 
+
+body{
+    height: 200vh;
+}
+
+ li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 2em;
+}
+h1{
+    color: white;
+    font-size: 2.5em;
+    position: relative;
+    top: 0.8em;
+    left: 1em;
+}
+.divtitlu{
+    height: 15em;
+}
+
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.pagina{
+    height: 100vh;
+}
+
+#divproducts{
+    padding-top: 5em;
+    background-color: #ff7057;
+    height: 15em;
+}
+#products{
+    position: absolute;
+    width: 12em;
+    height: 3.5em;
+    background-color: grey;
+    left: 44vw;
+    top: 6.8em;
+    vertical-align: middle;
+}
+
+#divservices{
+    background-color: gold;
+}
+#services{
+    position: absolute;
+    width: 12em;
+    height: 3.5em;
+    background-color: grey;
+    left: 44vw;
+    top: 115vh;
+    vertical-align: middle;
+}
+
+#divcontact{
+    background-color: rgb(255, 154, 2);
+}
+#contact{
+    position: absolute;
+    width: 12em;
+    height: 3.5em;
+    background-color: grey;
+    left: 44vw;
+    top: 215vh;
+    vertical-align: middle;
+}
+
+button{
+    background-color: green;
+    position: absolute;
+    top: 6em;
+    right: 2em;
+    color: white;
+    border-radius: 2em;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: green;
+}
+
+.text{
+    margin: 8em 0 0 30em;
+}
